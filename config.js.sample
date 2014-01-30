@@ -88,5 +88,10 @@ module.exports =  {
     "enable_cas_auth": false,
         // Point to the CAS authentication URL
         "cas_server_url": "https://point-to-the-cas-server/cas",
+        "cas_protocol_version": 2.0,
+        "cas_attributes": "ATTRIBUTE_NAME",
+
+     "enable_auth_access": true,
+        "auth_group": "A_GROUP_NAME"
 
 };
